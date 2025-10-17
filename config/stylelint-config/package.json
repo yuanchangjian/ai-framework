@@ -1,0 +1,20 @@
+{
+  "name": "@ai-framework/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "yuanchangjian@github.com",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "exit 0",
+    "example": "stylelint './examples/*.{css,less}'",
+    "lint": "eslint ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@coze-arch/eslint-config": "workspace:*",
+    "@coze-arch/ts-config": "workspace:*"
+  }
+}
+

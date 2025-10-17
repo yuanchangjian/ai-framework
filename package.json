@@ -1,0 +1,67 @@
+{
+  "name": "ai-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "pnpm install && pnpm --filter @ai-framework/* install",
+    "clean:turbo": "turbo daemon stop && npx rimraf .turbo",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanchangjian/ai-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanchangjian/ai-framework/issues"
+  },
+  "homepage": "https://github.com/yuanchangjian/ai-framework#readme",
+  "dependencies": {
+    "@arco-design/web-react": "^2.66.2",
+    "@tanstack/react-query": "^5.83.0",
+    "dayjs": "^1.11.13",
+    "mobx": "^6.13.7",
+    "mobx-react": "^9.2.0",
+    "mobx-utils": "^6.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^6.0.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@rsbuild/core": "^1.5.17",
+    "@rsbuild/plugin-less": "^1.5.0",
+    "@rsbuild/plugin-react": "^1.4.1",
+    "@rsbuild/plugin-svgr": "^1.2.2",
+    "@rsdoctor/rspack-plugin": "^1.2.3",
+    "@tanstack/react-query-devtools": "^5.83.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-helmet": "^6.1.11",
+    "cross-env": "^7.0.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "fs-extra": "^10.0.0",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "style-resources-loader": "^1.5.0",
+    "swagger-typescript-api": "^13.2.7",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.30.1",
+    "vitest": "^3.2.4",
+    "web-vitals": "^2.1.4"
+  },
+  "packageManager": "pnpm@10.15.1"
+}

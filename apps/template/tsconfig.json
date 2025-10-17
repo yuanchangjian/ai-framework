@@ -1,0 +1,4 @@
+{
+  "extends": "@ai-framework/ts-config/tsconfig.web.json",
+  "include": ["src"]
+}

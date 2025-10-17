@@ -1,0 +1,11 @@
+{
+  "name": "@ai-framework/ts-config",
+  "version": "1.0.0",
+  "description": "ts-config",
+  "keywords": [],
+  "author": "yuanchangjian@github.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

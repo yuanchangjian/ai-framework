@@ -1,0 +1,12 @@
+{
+  "name": "@ai-framework/rsbuild-config",
+  "version": "1.0.0",
+  "description": "rsbuild config",
+  "keywords": [],
+  "author": "yuanchangjian@github.com",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
