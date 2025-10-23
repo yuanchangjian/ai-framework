@@ -12,7 +12,6 @@ export const defineConfig = (config: Config): Config => {
   const { extends: rawExtends, rules = {}, ...userConfig } = config;
 
   return {
-    // @ts-expect-error -- linter-disable-autofix
     extends: [path.resolve(__dirname, '../.stylelintrc.js'), ...rawExtends],
     rules: {
       ...rules,
